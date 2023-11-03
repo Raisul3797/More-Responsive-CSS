@@ -1,0 +1,255 @@
+*{
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    width: 100%;
+}
+.nav-title{
+    text-align: center;
+    font-size: 30px;
+    margin-left: 200px;
+}
+span{
+    color: blueviolet;
+}
+.login{
+    background-color: rgb(126, 233, 236);
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center; 
+    font-weight: 700px;
+}
+.banner{
+    width: 1400px;
+}
+.fa-solid{
+    margin-left: 5px;
+}
+nav ul li{
+    list-style: none;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    background-color: bisque;
+    width: 100%;
+    /* position: fixed; */
+}
+li{
+    margin: 20px;
+    font-weight: 1em;
+    
+}
+.bannar-content{
+    text-align: center;
+    max-width: 800px;
+    /* display: flex; */
+    /* justify-content: center; */
+    margin: 0 auto;
+}
+.bannar-title{
+    text-align: center;
+}
+.primary-btn{
+    /* margin: 0 auto; */
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: orange;
+}
+.bg-image{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 1300px;
+    margin: 20px auto 0;
+    /* display: flex; */
+    align-items: center;
+}
+.main{
+    max-width: 1300px;
+    margin: 20px auto 0;
+
+}
+.team-container{
+    display: flex;
+    /* margin: 0 auto; */
+   
+}
+.team-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    /* width: 50%; */
+}
+.team-images img{
+    box-shadow: 0px 0 2px 2px;
+    border-radius: 5px;
+}
+.team-contents{
+    align-items: center;
+    justify-content: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-weight: 700px;
+    gap: 20px;
+}
+.team-contents p{
+    text-align: justify;
+}
+.quick-list{
+    color: gray;
+}
+
+.team-features{
+    color: orange;
+}
+
+
+ /* Features Styles */
+ .features{    
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+}
+/* .feature-container{
+   
+} */
+.features-title{
+    border-left: 5px solid orange;
+    padding-left: 10px;
+}
+.features-card{
+    box-shadow: 2px 0px 2px 2px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.features-badge{
+    background-color: orange;
+    width: 300px;
+    text-align: center;
+    padding: 15px;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    top: -100px;
+    border-radius: 5px;
+}
+.features-badge p{
+    color: white;
+}
+.features-img img{
+    /* width: 50%; */
+    margin-left: 70px;
+}
+.badge-title{
+    font-weight: 500px;
+    color: white;
+}
+
+/* Facts styles */
+.facts-container{
+    max-width: 1300px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.facts{
+    /* width: 20%; */
+    border: 2px solid orange;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: aliceblue;
+    /* display: flex;
+    text-align: center; */  
+    /* width: 70%; */
+    /*  */
+}
+.facts-title, .sponsor-title, .review-title{
+    font-weight: 600px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.facts-para{
+    font-weight: 600px;
+    font-size: 30px; 
+}
+
+/* Customer Review */
+.review{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 30px;
+    /* background-color: darkgrey; */
+    /* width: 25%; */
+    font-size: 15px;
+    padding-left: 5px;
+    gap: 10px;
+    
+}
+.customer-review{
+    /* border: 1px solid; */
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 1px 1px 2px 2px;
+    /* width: 30%; */
+}
+.review-part-one{
+    display: flex;
+    justify-content: space-between;
+}
+.review-part-one img{
+    height: 80px;
+    width: 80px;
+}
+.customer-name{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+/* Sponsor Styles */
+.sponsor-title, .contact-title, .review-title{
+    background-image: linear-gradient(to bottom, orange, gray);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.sponsor-images{
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 5px;
+    box-shadow: 5px 5px 5px 5px; */
+}
+
+
+
+/* Contact Us */
+.contact-title{
+    font-weight: 600px;
+    font-size: 40px;
+}
+.contact{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fa-brands{    
+    font-size: 30px;    
+}
+.footer{
+    margin-top: 20px;
+    background-color: bisque;
+    text-align: center;
+    padding: 5px;
+}
